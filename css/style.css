@@ -14,6 +14,7 @@ body {
     padding: 0 1rem;
     position: fixed;
     top: 0;
+    z-index: 100;
 }
 
 /* .h-nav-items {
@@ -25,10 +26,10 @@ body {
 }
 
 .top-image img {
-    max-width: 100%;
-    height: auto;
-    /* object-fit: contain; */
-    margin-top: 80px;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    /* margin-top: 80px; */
 }
 
 .top-image p {
@@ -41,7 +42,7 @@ body {
 }
 
 .main-section {
-    width: 80%;
+    width: 85%;
     margin: 0 auto;
 
 }
@@ -80,7 +81,7 @@ body {
 .button .btn {
     display: inline-block;
     margin-top: 1.5rem;
-    padding: 1rem 4rem;
+    padding: 1rem 3rem;
     border-radius: 0.5rem;
     color: white;
     background: #B90303;
@@ -90,11 +91,12 @@ body {
 /* お知らせセクション */
 
 .news-section {
-    padding-top: 32px;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
 }
 
 .news-section .news {
-    margin-top: 24px;
+    margin-top: 2rem;
 }
 
 .news-section .news hr {
@@ -120,4 +122,62 @@ body {
     background: #B90303;
     margin-right: 0.5rem;
     margin-bottom: 1px;
+}
+
+/* aboutセクション */
+ 
+.about-section {
+    padding-top: 3rem;
+}
+
+.about-section h1 {
+    font-size: 1.25rem;
+}
+
+.about-section p {
+    line-height: 1.6;
+}
+
+.about-section .about-img {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+/* メニューセクション */
+ 
+.menu-section {
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+}
+
+.menu-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 1rem;
+}
+
+.menu-item {
+    margin-top: 1rem;
+}
+
+.menu-item:nth-child(odd) {
+    margin-right: 0.5rem;
+}
+
+.menu-item:nth-child(even) {
+    margin-left: 0.5rem;
+}
+
+.menu-item img {
+    width: 100%;
+    border-radius: 0.25rem;
+}
+
+.menu-item span {
+    display: block;
+}
+
+.item-name {
+    font-weight: 600;
+    padding-top: 0.25rem;
 }
