@@ -6,7 +6,7 @@ body {
 
 .h-nav {
     width: 100%;
-    height: 80px;
+    height: 72px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -34,22 +34,23 @@ body {
 
 .top-image p {
     position: absolute;
-    left: 2rem;
-    bottom: 3rem;
+    left: 40px;
+    top: 640px;
     color: white;
     font-size: 0.75rem;
     line-height: 1.7;
 }
 
 .main-section {
-    width: 85%;
+    width: 90%;
     margin: 0 auto;
-
 }
 
-/* 共通 */
-/* タイトル */
+/* ======================
+    共通 
+====================== */
 
+/* タイトル */
 .title {
     color: #B90303;
 }
@@ -78,6 +79,7 @@ body {
 .button {
     text-align: center;
 }
+
 .button .btn {
     display: inline-block;
     margin-top: 1.5rem;
@@ -88,7 +90,9 @@ body {
     text-decoration: none;
 }
 
-/* お知らせセクション */
+/* ======================
+    newsセクション
+====================== */
 
 .news-section {
     padding-top: 2rem;
@@ -124,13 +128,15 @@ body {
     margin-bottom: 1px;
 }
 
-/* aboutセクション */
+/* ======================
+    aboutセクション
+====================== */
  
 .about-section {
-    padding-top: 3rem;
+    padding-top: 2rem;
 }
 
-.about-section h1 {
+.about-section h4 {
     font-size: 1.25rem;
 }
 
@@ -143,7 +149,9 @@ body {
     text-align: center;
 }
 
-/* メニューセクション */
+/* ======================
+    menuセクション
+====================== */
  
 .menu-section {
     padding-top: 4rem;
@@ -170,7 +178,7 @@ body {
 
 .menu-item img {
     width: 100%;
-    border-radius: 0.25rem;
+    /* border-radius: 0.25rem; */
 }
 
 .menu-item span {
@@ -180,4 +188,113 @@ body {
 .item-name {
     font-weight: 600;
     padding-top: 0.25rem;
+}
+
+/* ======================
+    accessセクション
+====================== */
+
+.access-section {
+    padding: 2rem 0 3rem 0;
+}
+
+.access-section .title {
+    margin-bottom: 2rem;
+}
+
+.store {
+    margin-bottom: 2rem;
+}
+
+.store img {
+    width: 100%;
+}
+
+.store p {
+    margin: 0;
+    font-size: 0.875rem;
+    line-height: 1.6;
+}
+
+.store-name {
+    font-size: 1rem !important;
+    font-weight: 800;
+    color: #B90303;
+    margin-top: 0.5rem !important;
+}
+
+.map {
+    width: 100%;
+    height: 240px;
+}
+
+.access ul {
+    padding: 0;
+}
+
+.access li {
+    list-style-type: none;
+    margin-bottom: 1.75rem;
+}
+
+.access h4 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    padding-bottom: 0.25rem;
+    border-bottom: 1px dashed;
+    font-weight: 400;
+}
+
+.access p {
+    margin: 0;
+    font-size: 0.875rem;
+}
+
+.access-section .circle {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: #B90303;
+    margin-right: 0.5rem;
+}
+
+/* ======================
+    footer
+====================== */
+
+footer {
+    background-color: #B90303;
+}
+
+.f-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 2rem 0 2.5rem 0;
+}
+
+.f-store {
+    margin-bottom: 1.25rem;
+}
+
+.f-store p {
+    margin: 0;
+    font-size: 0.875rem;
+    line-height: 1.6;
+    color: white;
+}
+
+.f-store-name {
+    font-size: 1rem !important;
+    font-weight: 800;
+    margin-top: 0.5rem !important;
+}
+
+.f-container .circle {
+    display: inline-block;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background: white;
+    margin-right: 0.5rem;
 }
