@@ -27,15 +27,15 @@ body {
 
 .top-image img {
     width: 100%;
-    height: 100vh;
-    object-fit: cover;
+    /* height: 100%; */
+    /* object-fit: cover; */
     /* margin-top: 80px; */
 }
 
 .top-image p {
     position: absolute;
-    left: 40px;
-    top: 640px;
+    left: 32px;
+    bottom: 100px;
     color: white;
     font-size: 0.75rem;
     line-height: 1.7;
@@ -78,16 +78,19 @@ body {
 
 /* ボタン */
 .button {
-    text-align: center;
+    text-align: right;
+}
+
+.material-symbols-outlined {
+    font-size: 1.25rem;
+    transform: rotate(-90deg);
+    vertical-align: -4px;
+    margin-left: 0.25rem;
 }
 
 .button .btn {
-    display: inline-block;
-    margin-top: 1.5rem;
-    padding: 1rem 3rem;
-    border-radius: 0.5rem;
-    color: white;
-    background: #B90303;
+    color: #000;
+    font-weight: 600;
     text-decoration: none;
 }
 
@@ -101,7 +104,7 @@ body {
 }
 
 .news-section .news {
-    margin-top: 1.5rem;
+    margin: 1.5rem 0 0.75rem 0;
 }
 
 .news-section .news hr {
@@ -115,12 +118,13 @@ body {
 }
 
 .news-section .news li {
-    margin: 0.5rem 0;
+    margin: 0.75rem 0;
     list-style-type: none;
 }
 
 .news-section .news p {
     margin: 0px;
+    color: #a1a1a1;
 }
 
 .news-section .news a {
@@ -147,7 +151,7 @@ body {
 }
 
 .about-section h4 {
-    margin: 2rem 0 1rem 0;
+    margin: 1.5rem 0 1rem 0;
     font-size: 1.25rem;
 }
 
@@ -172,7 +176,7 @@ body {
 .menu-items {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
 }
 
 .menu-item {
@@ -206,7 +210,7 @@ body {
 ====================== */
 
 .access-section {
-    padding: 2rem 0 3rem 0;
+    padding: 1.5rem 0 3rem 0;
 }
 
 .access-section .title {
@@ -239,6 +243,7 @@ body {
 }
 
 .access ul {
+    margin-top: 1.5rem;
     padding: 0;
 }
 
@@ -252,7 +257,6 @@ body {
     margin-bottom: 0.5rem;
     padding-bottom: 0.25rem;
     border-bottom: 1px dashed;
-    font-weight: 400;
 }
 
 .access p {
@@ -266,6 +270,7 @@ body {
     border-radius: 50%;
     background: #B90303;
     margin-right: 0.5rem;
+    vertical-align: -2px;
 }
 
 /* ======================
